@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- HIT226 WEB STRUCTURE 
+S280615
+JOEL BENESHA
+LIVING STYLE GUIDES  -->
+
+<html>
+    <head>
+        <title> common Styles </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name = "Joel & Augustine " content = "Style Guide ">
+        <meta name=" common Styles  " content="common Styles  page.">
+        <link type="text/css" href="css/style.css" rel="stylesheet" /> 
+    </head>
+
+    <body>
+
+        <header>
+            <div class = "container">
+                <div id= "branding">
+                    <h1><span class =highlight>Ha</span>Tron</h1>
+                </div>
+            </div>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li class ="current"><a href="typography.html">PATIENT LOCATION </a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id = "main">
+            <section id ="searchbox">
+                <h1> Map </h1>
+                <div class ="container">
+                    <form>
+                        <input type = "search" placeholder="search here">
+                        <button type = "submit" class="button_1">search</button>
+                    </form>
+                </div>
+
+            </section>
+
+            <section id= "typography">
+
+                <div class= "container">
+
+                  
+                    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnuI1nPTqiiaGfF1Q0ZLdGo3IqGTsRQw0&callback=initMap">
+    </script>
+                    
+                    
+                    
+                    
+
+                </div>
+            </section>
+
+
+        </section>
+
+        <footer>
+            <p><small>HaTron , copyright &copy; 2018   </small></p>
+
+        </footer>
+
+    </body>
+
+</html>
