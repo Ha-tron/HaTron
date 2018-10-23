@@ -69,7 +69,7 @@ $headers = array(
 width="400"
 height="400"
 frameborder="0" style="border:0"
-src="https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAP_API_KEY
+src="https://www.google.com/maps/embed/v1/place?key=AIzaSyChhmNO577D_GP_4hGqzhPSXDdlJwC9WHs
 &q=<?=$resultLAT?>,<?=$resultLON?>">
 </iframe>
 
