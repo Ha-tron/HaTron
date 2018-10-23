@@ -4,7 +4,7 @@
 
 
 $deviceID = "3a001f000c47373333353132";
-$access_token = "YOUR_PARTICLE_ACCESS_TOKEN";
+$access_token = "25dac8c7d16d90579d4e08b93f34340e89575850";
 
 $url = "https://api.particle.io/v1/devices/$deviceID/";
 $formed_url ='?access_token='.$access_token;
