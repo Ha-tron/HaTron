@@ -3,7 +3,7 @@
 // GPS UNIT
 
 
-$deviceID = "YOUR_PARTICLE_DEVIC_ID";
+$deviceID = "3a001f000c47373333353132";
 $access_token = "YOUR_PARTICLE_ACCESS_TOKEN";
 
 $url = "https://api.particle.io/v1/devices/$deviceID/";
