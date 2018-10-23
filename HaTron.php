@@ -1,7 +1,7 @@
 <?PHP
 # particle-map.php
 // GPS UNIT
-// https://cdn.sparkfun.com/datasheets/GPS/GP-20U7.pdf
+
 
 $deviceID = "YOUR_PARTICLE_DEVIC_ID";
 $access_token = "YOUR_PARTICLE_ACCESS_TOKEN";
